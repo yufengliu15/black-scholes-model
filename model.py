@@ -1,7 +1,7 @@
 from numpy import exp, sqrt, log
 from scipy.stats import norm
 
-class BlackSholes:
+class BlackScholes:
     # Represents European options
     # Time to maturity in years
     def __init__(self, stock_price: float, strike: float, time: float, risk_interest: float, volatility: float):
@@ -31,7 +31,7 @@ if __name__ == "__main__":
     risk_interest = 0.04
     volatility = 1
 
-    BS = BlackSholes(stock_price, strike, time, risk_interest, volatility)
+    BS = BlackScholes(stock_price, strike, time, risk_interest, volatility)
 
     BS.run()
 
