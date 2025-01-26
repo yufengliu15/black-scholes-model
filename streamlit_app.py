@@ -1,7 +1,5 @@
 import streamlit as st
-import pandas as pd
 import numpy as np
-import plotly.graph_objects as go
 from numpy import exp, sqrt, log
 from scipy.stats import norm
 import matplotlib.pyplot as plt
