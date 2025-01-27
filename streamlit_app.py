@@ -55,7 +55,8 @@ st.markdown("""
 
 with st.sidebar:
     st.title("Black-Scholes Model")
-
+    st.info("View the source code below")
+    st.markdown("<a href='https://github.com/yufengliu15/black-scholes-model'>Source Code</a>", unsafe_allow_html=True)
     stock_price = st.number_input("Current Asset Price", value=100.0)
     strike = st.number_input("Strike Price", value=100.0)
     time = st.number_input("Time to Maturity (Years)", value=1.0)
